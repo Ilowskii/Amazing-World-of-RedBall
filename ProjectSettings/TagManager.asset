@@ -13,6 +13,18 @@ TagManager:
   - Levels
   - Bonus
   - MainHub
+  - Coin
+  - Blue
+  - Green
+  - Pink
+  - Gold
+  - Quit
+  - Red
+  - Dialog1
+  - Dialog2
+  - Checkpoint
+  - Death
+  - Dialog3
   layers:
   - Default
   - TransparentFX

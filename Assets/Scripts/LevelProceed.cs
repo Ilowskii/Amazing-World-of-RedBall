@@ -5,13 +5,27 @@ using UnityEngine.SceneManagement;
 
 public class LevelProceed : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "MainHub")
+        if (other.gameObject.CompareTag("Levels"))
         {
             SceneManager.LoadScene(1);
+            
+        }
+        if (other.gameObject.CompareTag("MainHub"))
+        {
+            SceneManager.LoadScene(0);
+
+        }
+        if (other.gameObject.CompareTag("Bonus"))
+        {
+            SceneManager.LoadScene(2);
+
+        }
+        if (other.gameObject.CompareTag("Quit"))
+        {
+            Application.Quit();
+            Debug.Log("Oyunu Kapattýn");
         }
     }
-
-
 }

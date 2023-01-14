@@ -416,7 +416,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8844377830877689862, guid: fb005a4b45a002944a237313c5e0b9b7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8844377830877689862, guid: fb005a4b45a002944a237313c5e0b9b7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -817,7 +817,7 @@ GameObject:
   - component: {fileID: 228141309}
   m_Layer: 0
   m_Name: Level3Trigger
-  m_TagString: Untagged
+  m_TagString: Level3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1180,6 +1180,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7718468701339151502, guid: fc94ca8d971eb5e4abf1e147e5798053, type: 3}
   m_PrefabInstance: {fileID: 387259709}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &402647369 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8844377830877689858, guid: fb005a4b45a002944a237313c5e0b9b7, type: 3}
+  m_PrefabInstance: {fileID: 78145692}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &408341792
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1323,6 +1328,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8844377830877689862, guid: fb005a4b45a002944a237313c5e0b9b7, type: 3}
   m_PrefabInstance: {fileID: 78145692}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &458069731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402647369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31478cdfbb89d8242b1067479e9537d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &462300669
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1659,7 +1676,7 @@ GameObject:
   - component: {fileID: 555835195}
   m_Layer: 0
   m_Name: Level4Trigger
-  m_TagString: Untagged
+  m_TagString: Level4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2215,7 +2232,7 @@ GameObject:
   - component: {fileID: 676906581}
   m_Layer: 0
   m_Name: MainHubTrigger
-  m_TagString: Untagged
+  m_TagString: MainHub
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4311,7 +4328,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1249110903}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4402,7 +4419,7 @@ GameObject:
   - component: {fileID: 1251528631}
   m_Layer: 0
   m_Name: Level5Trigger
-  m_TagString: Untagged
+  m_TagString: Level5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5408,15 +5425,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 91bfc547e3b6b9e47ae812ad0bf345ce, type: 3}
       propertyPath: m_LocalScale.x
-      value: 944.69995
+      value: 950
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 91bfc547e3b6b9e47ae812ad0bf345ce, type: 3}
       propertyPath: m_LocalScale.y
-      value: 944.69995
+      value: 950
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 91bfc547e3b6b9e47ae812ad0bf345ce, type: 3}
       propertyPath: m_LocalScale.z
-      value: 944.69995
+      value: 950
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 91bfc547e3b6b9e47ae812ad0bf345ce, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5563,7 +5580,7 @@ GameObject:
   - component: {fileID: 1662858622}
   m_Layer: 0
   m_Name: Level2Trigger
-  m_TagString: Untagged
+  m_TagString: Level2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6280,7 +6297,7 @@ GameObject:
   - component: {fileID: 1878303704}
   m_Layer: 0
   m_Name: Level1Trigger
-  m_TagString: Untagged
+  m_TagString: Level1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
