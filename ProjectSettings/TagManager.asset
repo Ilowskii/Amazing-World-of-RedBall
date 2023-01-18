@@ -25,6 +25,8 @@ TagManager:
   - Checkpoint
   - Death
   - Dialog3
+  - Dialog4
+  - Dialog5
   layers:
   - Default
   - TransparentFX

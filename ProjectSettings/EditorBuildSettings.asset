@@ -15,6 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Bonus.unity
     guid: b416ec01d49f44e4a94dbcbc0cf69156
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/Level1.unity
+    guid: bca60c8c6b4b54c46a94c2d934ab1d6c
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 832ca651d272ed2449e9fc6364e5a07d
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: ab49f5e48baaf8f438e5f7c3e7225e57
   m_configObjects: {}

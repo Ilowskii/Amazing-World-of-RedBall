@@ -7,6 +7,8 @@ public class TutorialDialog : MonoBehaviour
     public GameObject Dia1;
     public GameObject Dia2;
     public GameObject Dia3;
+    public GameObject Dia4;
+    public GameObject Dia5;
 
     void OnTriggerEnter(Collider other)
     {
@@ -22,6 +24,14 @@ public class TutorialDialog : MonoBehaviour
         {
             Dia3.SetActive(true);
         }
+        if (other.gameObject.CompareTag("Dialog4"))
+        {
+            Dia4.SetActive(true);
+        }
+        if (other.gameObject.CompareTag("Dialog5"))
+        {
+            Dia5.SetActive(true);
+        }
     }
     void OnTriggerExit(Collider other)
     {
@@ -36,6 +46,14 @@ public class TutorialDialog : MonoBehaviour
         if (other.gameObject.CompareTag("Dialog3"))
         {
             Dia3.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Dialog4"))
+        {
+            Dia4.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Dialog5"))
+        {
+            Dia5.SetActive(false);
         }
     }
 }

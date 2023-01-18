@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -16,15 +16,15 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-        rb = GetComponent<Rigidbody>(); // küredeki rigidbody eklentisinden bilgiyi al
+        rb = GetComponent<Rigidbody>(); // kÃ¼redeki rigidbody eklentisinden bilgiyi al
         Coinamount = 0;
         SetCoinText();
 
     }
 
-    void OnMove(InputValue movementValue)   //gelen inputlarý movementValue diye isimlendir
+    void OnMove(InputValue movementValue)   //gelen inputlari movementValue diye isimlendir
     {
-        Vector2 movementVector = movementValue.Get<Vector2>();  // inputlarý x,y ye göre yansýtma
+        Vector2 movementVector = movementValue.Get<Vector2>();  // inputlari x,y ye gÃ¶re yansÃ½tma
 
         movementX = movementVector.x;
         movementY = movementVector.y;
@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         Vector3 movement = new Vector3(movementX, 0.0f, movementY);
-        
+
         rb.AddForce(movement * speed);
     }
 
@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Pickup"))
         {
-            other.gameObject.SetActive (false);
+            other.gameObject.SetActive(false);
             Coinamount = Coinamount + 1;
             SetCoinText();
         }
